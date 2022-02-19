@@ -1,0 +1,75 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo {
+  background-color: #7507a0;
+}
+
+.nav-anim {
+  color: white;
+}
+
+.nav-anim:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.btn-white {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+.btn-white:hover {
+  color: black;
+  background-color: white;
+}
+
+.titulo {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.img-carousel {
+  width: 25%;
+}
+
+footer {
+  background-color: #7507a0;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer h2 {
+  color: white;
+}
+
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000;
+}
+
+.contenido-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.contenido-footer a:hover {
+  color: var(--blanco);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: underline;
+}
+
+.final {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
