@@ -1,10 +1,11 @@
- @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 $fondoMorado: rgb(117, 7, 160);
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/*Nav*/
 
 .fondo{
     background-color: rgb(117, 7, 160);
@@ -27,15 +28,34 @@ body{
         background-color: white;
     }
 }
+/*Nav*/
+
+/*Titulo*/
 .titulo{
     font-size: 2em;
     text-align: center;
     text-decoration: underline;
 }
+/*Titulo*/
 
+/*Carousel*/
 .img-carousel{
     width: 25%;
 }
+/*Carousel*/
+
+/*Cartas*/
+.cartas .carta{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 250px;
+    align-items: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5)
+}
+/*Cartas*/
+
+/*Footer*/
 
 footer{
     background-color: $fondoMorado;
@@ -77,3 +97,4 @@ footer h2{
     margin: 20px 0 0 0;
     
 }
+/*Footer*/
