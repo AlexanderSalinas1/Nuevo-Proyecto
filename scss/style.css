@@ -4,16 +4,19 @@
   box-sizing: border-box;
 }
 
+/*Var*/
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: whitesmoke;
+  background-color: rgba(117, 7, 160, 0.5);
 }
 
+/*Var*/
 /*Nav*/
 .fondo {
-  background-color: #7507a0;
+  background-color: #7e26a1;
 }
 
 .nav-anim {
@@ -48,6 +51,7 @@ body {
 /*Carousel*/
 .img-carousel {
   width: 25%;
+  align-items: center;
 }
 
 /*Carousel*/
@@ -99,25 +103,25 @@ body {
 
 .carta .contenido-carta a {
   background: white;
-  border-color: #7507a0;
+  border-color: #7e26a1;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
-  color: #7507a0;
+  color: #7e26a1;
   border-radius: 4px;
   transition: all 400ms ease;
 }
 
 .carta .contenido-carta a:hover {
-  background: #7507a0;
+  background: #7e26a1;
   color: #fff;
 }
 
 /*Cartas*/
 /*Footer*/
 footer {
-  background-color: #7507a0;
+  background-color: #7e26a1;
   margin: auto;
   overflow: hidden;
 }
@@ -136,6 +140,7 @@ footer h2 {
 }
 
 .contenido-footer a {
+  font-weight: 200;
   color: white;
   text-decoration: none;
 }
@@ -148,10 +153,73 @@ footer h2 {
   text-decoration: underline;
 }
 
+.contenido-footer h4 {
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+}
+
 .final {
   text-align: center;
   font-size: 24px;
   margin: 20px 0 0 0;
+  font-weight: 400;
 }
 
 /*Footer*/
+/*Formulario*/
+.cuerpo-contacto {
+  font-size: 22px;
+}
+
+#contacto-formulario {
+  width: 300px;
+  margin: 150px auto;
+  background-color: rgba(117, 7, 160, 0.5);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#contacto-formulario select {
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  width: 260px;
+}
+
+.campo {
+  outline: none;
+  border: solid 1px;
+  padding: 10px;
+  width: 260px;
+}
+
+.campo:focus {
+  border-color: var(--rosa);
+}
+
+.bton {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(233, 64, 87, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+
+.bton-color {
+  color: white;
+  background-color: #7e26a1;
+  width: 260px;
+}
+
+.bton-color:hover {
+  background-color: rgba(117, 7, 160, 0.5);
+}
+
+.bton-color:active {
+  background-color: white;
+  color: #7e26a1;
+}
+
+/*Formulario*/
