@@ -223,3 +223,112 @@ footer h2 {
 }
 
 /*Formulario*/
+/*UBICACION*/
+.ubicacion-titulo {
+  color: var(--rosa);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+
+.ubicacion-carta {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ubicacion-carta .carta {
+  background: var(--violeta);
+  display: flex;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ubicacion-carta .carta img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.ubicacion-carta .carta .ubicacionTextoCard {
+  width: 60%;
+  color: #fff;
+}
+
+.ubicacion-carta .carta .ubicacionTextoCard p {
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+/*UBICACION*/
+/*AYUDA*/
+.ayuda-terminos {
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.ayuda-terminos h2 {
+  color: var(--rosa);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+
+.ayuda-terminos p {
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.ayuda-terminos ol {
+  text-decoration: auto;
+}
+
+/*AYUDA*/
+/*SOBRE NOSOTROS*/
+.sobre-nosotros-titulo {
+  color: var(--blanco);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+
+.sobre-nosotros-contenido {
+  background: var(--violeta);
+  display: flexbox;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sobre-nosotros-contenido p {
+  font-weight: 300;
+  padding: 10px;
+  color: #7e26a1;
+}
+
+.sobre-nosotros-contenido iframe {
+  margin: 0 auto;
+  align-items: center;
+}
+
+/*SOBRE NOSOTROS*/
