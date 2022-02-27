@@ -8,6 +8,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgba(117, 7, 160, 0.5); }
 
@@ -101,7 +103,9 @@ body {
 footer {
   background-color: #7e26a1;
   margin: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  bottom: 0; }
 
 footer h2 {
   color: white; }
