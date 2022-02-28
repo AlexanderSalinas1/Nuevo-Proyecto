@@ -125,8 +125,9 @@ body{
 footer{
     background-color: $fondoMorado;
     margin: auto;
+    width: 100%;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     bottom: 0;
     
 }

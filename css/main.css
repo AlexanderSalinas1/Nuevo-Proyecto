@@ -103,8 +103,9 @@ body {
 footer {
   background-color: #7e26a1;
   margin: auto;
+  width: 100%;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   bottom: 0; }
 
 footer h2 {
