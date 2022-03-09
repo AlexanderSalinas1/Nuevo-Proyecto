@@ -6,12 +6,12 @@
 /*Var*/
 body {
   width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
-  min-height: 100vh;
-  position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgba(117, 7, 160, 0.5); }
+  background-color: rgba(117, 7, 160, 0.5);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 /*Var*/
 /*Nav*/
@@ -41,7 +41,7 @@ body {
 
 /*Titulo*/
 /*Carousel*/
-.img-carousel {
+.carousel-inner {
   width: 25%;
   align-items: center; }
 
@@ -49,10 +49,10 @@ body {
 /*Cartas*/
 .contenedor-carta {
   width: 100%;
+  max-width: 1200px;
+  height: 430px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 1100px;
+  justify-content: center;
   flex-wrap: wrap; }
 
 .carta {
@@ -102,11 +102,8 @@ body {
 /*Footer*/
 footer {
   background-color: #7e26a1;
-  margin: auto;
-  width: 100%;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0; }
+  margin-top: auto;
+  overflow: hidden; }
 
 footer h2 {
   color: white; }
@@ -277,9 +274,5 @@ footer h2 {
   font-weight: 300;
   padding: 10px;
   color: #7e26a1; }
-
-.sobre-nosotros-contenido iframe {
-  margin: 0 auto;
-  align-items: center; }
 
 /*SOBRE NOSOTROS*/
