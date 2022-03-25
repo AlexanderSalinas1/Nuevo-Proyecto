@@ -188,9 +188,7 @@ footer h2 {
 
 .contenido-footer a:hover {
   color: var(white);
-  font-size: 20px;
-  font-weight: 500;
-  padding: 10px 20px;
+  font-weight: 200;
   text-decoration: underline;
 }
 
